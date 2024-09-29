@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/images/Redesign-Ecac-modo-branco.png') no-repeat center center;
+    background: url('images/Redesign-Ecac-modo-branco.png') no-repeat center center;
     background-size: contain;
     background-attachment: fixed;
     transition: background-image 0.3s ease-in-out;
