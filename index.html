@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Gov.br</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   </head>
   <body>
     <header class="top-menu">
@@ -13,8 +15,11 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Alto Contraste</a></li>
-          <li><a href="#">Libras</a></li>
+          <div class="top-icons" >
+            <img class="svg_icons" src="images/InformationCircle.svg" alt="Login" class="icone">
+            <li><a href="#">Alto Contraste</a></li>
+            <li><a href="#">Libras</a></li>
+        </div>
         </ul>
       </nav>
     </header>
@@ -23,7 +28,7 @@
     <div class="form-section">
       <h2>Identifique-se no gov.br com:</h2>
       <form action="#" method="POST">
-        <h3>Número do cpf  e senha</h3>
+        <h3><img class="svg_icons" src="images/Identification.svg" alt="Login" class="icone">Número do cpf  e senha</h3>
         <label for="cpf">CPF</label>
         <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" />
   
@@ -43,22 +48,18 @@
       <div class="other-options">
         <h4>Outras opções de identificação:</h4>
         <ul>
-          <li><a href="#">Login com seu banco</a></li>
-          <li><a href="#">Login com QR code</a></li>
-          <li><a href="#">Seu certificado digital</a></li>
-          <li><a href="#">Seu certificado digital em nuvem</a></li>
+          <li class="other-icons"><img class="svg_icons" src="images/DevicePhoneMobile.svg" alt="Login" class="icone"><a href="#">Login com seu banco</a></li>
+          <li class="other-icons"><img class="svg_icons" src="images/QrCode.svg" alt="Login" class="icone"><a href="#">Login com QR code</a></li>
+          <li class="other-icons"><img class="svg_icons" src="images/Window.svg" alt="Login" class="icone"><a href="#">Seu certificado digital</a></li>
+          <li class="other-icons"><img class="svg_icons" src="images/Cloud.svg" alt="Login" class="icone"><a href="#">Seu certificado digital em nuvem</a></li>
         </ul>
       </div>
     </div>
   
     <footer>
-      <p><a href="#">Está com dúvidas e precisa de ajuda?</a></p>
+      <p class="other-icons"><img class="svg_icons" src="images/QuestionMarkCircle.svg" alt="Login" class="icone"><a href="#">Está com dúvidas e precisa de ajuda?</a></p>
       <p><a href="#">Termo de Uso e Aviso de Privacidade</a></p>
     </footer>
   </div>
   </body>
 </html>
-
-
-  
-
