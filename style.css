@@ -14,6 +14,23 @@ body {
     background: url('images/Redesign-Ecac-modo-branco.png') no-repeat center center;
 }
 
+
+.svg_icons {
+    width: 1.5em;
+    height: 1.5em;
+}
+   
+.other-icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+div.top-icons {
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
 .top-menu {
     position: fixed;
     top: 0;
@@ -90,6 +107,9 @@ body {
     text-align: left;
     font-size: medium;
     font-weight: lighter;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 label {
