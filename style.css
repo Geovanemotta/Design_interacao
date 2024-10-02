@@ -252,7 +252,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 932px) {
     body {
         background: none; /* Remove a imagem de fundo pra telas menores */
     }
