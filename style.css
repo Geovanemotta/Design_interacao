@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'rawline', Rawline, serif;
+    font-family: arial, rawline, Rawline, serif;
 }
 
 body, html {
@@ -137,8 +137,8 @@ input[type="text"], input[type="password"] {
     text-decoration: none;
 }
 
-.forgot-password a:hover {
-    text-decoration: underline;
+.forgot-password a {
+    text-decoration:underline;
 }
 
 .form-actions {
