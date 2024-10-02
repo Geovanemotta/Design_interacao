@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif, verdana;
+    font-family: 'rawline', Rawline, serif;
 }
 
 body, html {
@@ -212,6 +212,15 @@ input[type="text"], input[type="password"] {
     padding-left: 2px;
     padding-right: 2px;
     font-weight: lighter;
+ }
+
+ hr {
+    margin-bottom: 25px;
+    margin-top: -5px;
+    border: none;           
+    height: 1px;            
+    background-color: #000000;        
+    width: 100%;
  }
 
 footer {
