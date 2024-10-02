@@ -216,8 +216,7 @@ input[type="text"], input[type="password"] {
 
  .identify {
     margin-bottom: 25px;
-    margin-top: -5px;
-    border: none;           
+    margin-top: -5px;           
     height: 1px;            
     background-color: #000000;        
     width: 100%;
@@ -229,7 +228,7 @@ input[type="text"], input[type="password"] {
     border: 1px;           
     height: 1px;                   
     width: 153px;
-    background-color:#727272;
+    background-color: #0073e6;
  }
 
 footer {
