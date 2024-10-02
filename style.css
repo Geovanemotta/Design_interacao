@@ -38,7 +38,7 @@ div.top-icons {
     height: 60px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    z-index: 1000; /* Garante que o menu sempre fique por cima */
+    z-index: 1000; /* menu sempre fique por cima */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ div.top-icons {
 .container {
     position: relative;
     width: 96%;
-    height: auto; /* Ajuste automático baseado no conteúdo */
+    height: auto; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@ div.top-icons {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 600px; /* Tamanho máximo fixo */
     width: 180px;
-    min-width: 400px; /* Define um tamanho mínimo para o container */
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,7 +139,6 @@ input[type="text"], input[type="password"] {
 
 .forgot-password a {
     text-decoration:none;
-    color: #727272;
 }
 
 .form-actions {
@@ -227,10 +226,10 @@ input[type="text"], input[type="password"] {
  .forget{
     margin-bottom: 25px;
     margin-top: -2px;
-    border: none;           
-    height: 1px;            
-    background-color: #000000;        
+    border: 1px;           
+    height: 1px;                   
     width: 153px;
+    background-color:#727272;
  }
 
 footer {
@@ -268,4 +267,3 @@ footer p a:hover {
     }
     
 }
-
