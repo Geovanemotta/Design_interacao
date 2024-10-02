@@ -193,10 +193,26 @@ input[type="text"], input[type="password"] {
     margin-bottom: 10px;
 }
 
-.other-options ul li a {
+.secondary {
     color: #727272;
     text-decoration: none;
 }
+
+.bank{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #008C32;
+ }
+
+ .silver{
+    background-color: #008C32;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: lighter;
+ }
 
 footer {
     text-align: center;
@@ -231,4 +247,6 @@ footer p a:hover {
         padding: 20px;
         min-height: 80vh;
     }
+    
 }
+
